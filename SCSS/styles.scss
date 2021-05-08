@@ -319,6 +319,11 @@ p{
 	max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  // text-align: center; 
+ 
 }
 
 .tarjeta {
@@ -370,8 +375,8 @@ ol li{
 
 .boton--derecha {
 	position: absolute;
-  right: 20px;
-	bottom: 20px;
+  right: 25px;
+	bottom: 25px;
 }
 
 .boton--derecha:hover {

@@ -274,7 +274,10 @@ p {
 .contenedor {
   max-width: 1000px;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
 
 .tarjeta {
   background-image: linear-gradient(to left, #434343, #000000);
@@ -318,8 +321,8 @@ ol li {
 
 .boton--derecha {
   position: absolute;
-  right: 20px;
-  bottom: 20px; }
+  right: 25px;
+  bottom: 25px; }
 
 .boton--derecha:hover {
   background-color: #b9dd00;
