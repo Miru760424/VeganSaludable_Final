@@ -1,407 +1,396 @@
 /* Reseteo de página */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  /* Ocultar la barra de dezplazamiento */
-  ::-webkit-scrollbar {
-    display: none;
-  } 
+/* Ocultar la barra de dezplazamiento */
+::-webkit-scrollbar {
+  display: none;
+} 
   
-  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800&family=Bevan&family=Francois+One&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800&family=Bevan&family=Francois+One&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
   
-  @font-face {
-    font-family: Regionare;
-    src: url("../Fuentes/Regionaire.ttf");
-    font-weight:normal;
-  }
+@font-face {
+  font-family: Regionare;
+  src: url("../Fuentes/Regionaire.ttf");
+  font-weight:normal;
+}
   
-  /* Página Index */
-  /* Bootstrap */
-  .navbar {
-    background-image: linear-gradient(to left, #434343, #000000) !important;
-    color: rgb(185, 221, 0) !important;
-    font-family: Regionare;
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+/* Página Index */
+/* Bootstrap */
+.navbar {
+  background-image: linear-gradient(to left, #434343, #000000) !important;
+  color: rgb(185, 221, 0) !important;
+  font-family: Regionare;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
   
-  .navbar ul li a {
-    color: rgb(185, 221, 0) !important;
-  }
+.navbar ul li a {
+  color: rgb(185, 221, 0) !important;
+}
   
-  .dropdown-menu,
-  .dropdown-item {
-    background-image: linear-gradient(to left, #434343, #000000) !important;
-  }
-  /* Final de Menú navegador */
+.dropdown-menu,
+.dropdown-item {
+  background-image: linear-gradient(to left, #434343, #000000) !important;
+}
+/* Final de Menú navegador */
   
-  /* Sección anterior al footer */
-  /* Bootstrap */
-  section {
-    width: 100%;
-  }   
+/* Sección anterior al footer */
+/* Bootstrap */
+section {
+  width: 100%;
+}   
   
-  .container-all {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-  }
+.container-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
   
-  .container-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-  }
+.container-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
   
-  .colum-1, 
-  .colum-2,
-  .colum-3 {
-    max-width: 400px;
-  }
+.colum-1, 
+.colum-2,
+.colum-3 {
+  max-width: 400px;
+}
   
-  .colum-1 h1,
-  .colum-2 h1,
-  .colum-3 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
+.colum-1 h1,
+.colum-2 h1,
+.colum-3 h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
   
-  .colum-1 img,
-  .colum-2 img,
-  .colum-3 img {
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
-  }
+.colum-1 img,
+.colum-2 img,
+.colum-3 img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
   
-  .colum-1 p,
-  .colum-2 p,
-  .colum-3 p {
-    text-align: center;
-  }
+.colum-1 p,
+.colum-2 p,
+.colum-3 p {
+  text-align: center;
+}
   
-  /* Footer */
-  /* Bootstrap */
-  footer {
-    width: 100%;
-    background-image: linear-gradient(to left, #434343, #000000);
-    color: #c7c7c7;
-    overflow: hidden;
-  }   
+/* Footer */
+/* Bootstrap */
+footer {
+  width: 100%;
+  background-image: linear-gradient(to left, #434343, #000000);
+  color: #c7c7c7;
+  overflow: hidden;
+}   
   
-  .container-footer-all {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-  }
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
   
-  .container-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-  }
+.container-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
   
-  .colum1, 
+.colum1, 
+.colum2,
+.colum3 {
+  max-width: 400px;
+}
+  
+.colum1 h1,
+.colum2 h1,
+.colum3 h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(185, 221, 0);
+  margin-top: 20px;
+  text-align: center;
+}
+  
+.colum1 a {
+  text-decoration: none;
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #c7c7c7;
+}
+  
+.colum2 .row2,
+.colum3 .row3 {
+  margin-top: -10px;
+  display: flex; 
+}
+  
+.colum2 .row2 a img,
+.colum3 .row3 a img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+  
+.colum2 .row2 Label,
+.colum3 .row3 Label {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #c7c7c7;
+  max-width: 250px;
+}
+  
+.container-footer {
+  width: 100%;
+  background: #101010;
+  padding: 10px;
+}
+  
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.copyright {
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+  color: #c7c7c7;
+} 
+  
+.creado {
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+  color: #c7c7c7; 
+}
+  
+@media screen and (max-width: 1100px) {
+.container-body {
+  flex-wrap: wrap;
+}
+    
   .colum2,
   .colum3 {
-    max-width: 400px;
+    margin-top: 5px;
   }
+}
+/* Final del footer  */
+ 
+/* Títulos de páginas - Formato */
+/* Formato - Fondo, tipo de letra, tamaño, color, alineación y margen  */
+main.título { 
+  background-image: linear-gradient(to left, #434343, #000000);
+  color:rgb(185, 221, 0);
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-weight:600;
+  font-size: 18px; 
+  margin-top: 10px;
+  /* Animación a los títulos de páginas */
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; 
+}
   
-  .colum1 h1,
-  .colum2 h1,
-  .colum3 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: rgb(185, 221, 0);
-    margin-top: 20px;
-    text-align: center;
+@keyframes aparecer {
+  0% {
+    opacity: 0;
   }
-  
-  .colum1 a {
-    text-decoration: none;
-    font-family: 'Josefin Slab', serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: #c7c7c7;
+  100% {
+    opacity: 1;
   }
+}
   
-  .colum2 .row2,
-  .colum3 .row3 {
-    margin-top: -10px;
-    display: flex; 
-  }
+/* Subtítulos de páginas - Formatos */
+/* Formato - Fuente, tamaño, color, alineación y margen  */
+h2 {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight:bold;
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+  padding: 10px 0 10px 0; 
+} 
   
-  .colum2 .row2 a img,
-  .colum3 .row3 a img {
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-  }
+h3 {
+  font-family: 'Playfair Display SC', serif; 
+  font-weight:bold;
+  font-size:20px;
+  color:rgb(52, 136, 17);
+  padding: 10px 0px 10px 0px;   
+} 
   
-  .colum2 .row2 Label,
-  .colum3 .row3 Label {
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: 'Josefin Slab', serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: #c7c7c7;
-    max-width: 250px;
-  }
+/* Páginas - Parrafos - Formato */
+/* Fomato - Fuente, tamaño, color, alineación y margen */ 
+p{
+  color:rgb(0, 0, 0);
+  text-align: justify;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 5px;
+  text-align: justify;
+  font-family: 'Josefin Slab', serif;
+  font-weight: normal;
+  font-size: 20px;
+} 
   
-  .container-footer {
-    width: 100%;
-    background: #101010;
-    padding: 10px;
-  }
+/* Página Productos */
+/* Grid a la página principal de productos*/
+#main{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4,0,5fr);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
   
-  .footer {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
+#main__fotos{
+  border: solid 2px rgb(2, 2, 2);
+  width: 336px;
+  height: 204px;
+  margin-left: 5px;
+  margin-right: 5px; 
+  margin-top: 80px;
+  margin-bottom: 50px;
+}   
   
-  .copyright {
-    font-family: 'Josefin Slab', serif;
-    font-weight: normal;
-    color: #c7c7c7;
-  } 
+.main__texto {
+  font-family: 'Josefin Slab', serif;
+  font-weight:900;
+  font-style:oblique;
+  font-variant:small-caps;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-top: -55px;
+  margin-left: 100px;
+}
   
-  .creado {
-    font-family: 'Josefin Slab', serif;
-    font-weight: normal;
-    color: #c7c7c7; 
-  }
+/* Página Producto - Subpáginas Capilares, Corporales, Faciales y Accesorios */
+/* Distibución de imagenes */
+/* Flexbox */
+.producto {
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 50px;
+}  
   
-  @media screen and (max-width: 1100px) {
-    .container-body {
-       flex-wrap: wrap;
-    }
-    
-    .colum2,
-    .colum3 {
-        margin-top: 5px;
-    }
-  }
-  /* Final del footer  */
+.productos {
+  display: inline-block;
+  flex-direction: row;
+  justify-content:space-around;
+  text-align: center;
+}
   
-  /* Títulos de páginas - Formato */
-  /* Formato - Fondo, tipo de letra, tamaño, color, alineación y margen  */
-  main.título { 
-    background-image: linear-gradient(to left, #434343, #000000);
-    color:rgb(185, 221, 0);
-    text-align: center;
-    font-family: 'Abril Fatface', cursive;
-    font-weight:600;
-    font-size: 18px; 
-    margin-top: 10px;
-    /* Animación a los títulos de páginas */
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite; 
-  }
+.productostexto {
+  text-align: center;
+}
   
-  @keyframes aparecer {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+.productostexto1 {
+  margin-top: -25px;
+  text-align: center;
+}
   
-  /* Subtítulos de páginas - Formatos */
-  /* Formato - Fuente, tamaño, color, alineación y margen  */
-  h2 {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight:bold;
-    font-size: 20px;
-    color:rgb(0, 0, 0);
-    padding: 10px 0 10px 0; 
-  } 
+/* Página Noticias */
+/* Bootstrap */
+/* Contenedor de la Primera Noticia*/
+/* Fotmato del Título: Tipografia, tamaño, color*/
+.container-fluid h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  color: rgb(21, 138, 21);
+  margin-top: 15px;
+}
   
-  h3 {
-    font-family: 'Playfair Display SC', serif; 
-    font-weight:bold;
-    font-size:20px;
-    color:rgb(52, 136, 17);
-    padding: 10px 0px 10px 0px;   
-  } 
+.container-fluid h3 {
+  font-family: 'Josefin Slab', serif !important; 
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
   
-  /* Páginas - Parrafos - Formato */
-  /* Fomato - Fuente, tamaño, color, alineación y margen */ 
-  p{
-    color:rgb(0, 0, 0);
-    text-align: justify;
-    margin-top: 2px;
-    margin-left: 2px;
-    margin-right: 5px;
-    text-align: justify;
-    font-family: 'Josefin Slab', serif;
-    font-weight: normal;
-    font-size: 20px;
-    } 
+/* Contenedor de la Segunda Noticia*/
+/* Fotmato del Título: Tipografia, tamaño, color*/
+.div-container-fluid h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  color: rgb(21, 138, 21);
+  margin-top: 15px;
+}
   
-  /* Página Productos */
-  /* Grid a la página principal de productos*/
-  #main{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4,0,5fr);
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+/* Página Nosotros - Alineación de texto */
+.nosotros__titulos {
+  margin-top: 10px;
+  margin-left: 5px;
+}
   
-  #main__fotos{
-    border: solid 2px rgb(2, 2, 2);
-    width: 336px;
-    height: 204px;
-    margin-left: 5px;
-    margin-right: 5px; 
-    margin-top: 80px;
-    margin-bottom: 50px;
-  }   
+.nosotros__subtitulos {
+  margin-left: 20px;
+}
   
-  .main__texto {
-    font-family: 'Josefin Slab', serif;
-    font-weight:900;
-    font-style:oblique;
-    font-variant:small-caps;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    margin-top: -55px;
-    margin-left: 100px;
-  }
+.nosotros__texto {
+  margin-left: 20px;
+  margin-right: 20px;
+}
   
-  /* Página Producto - Subpáginas Capilares, Corporales, Faciales y Accesorios */
-  /* Distibución de imagenes */
-  /* Flexbox */
-  .producto {
-    display: inline-block;
-    flex: 1;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 50px;
-  }  
+/* Página Información */
+/* Bootstrap */
+.container-fluid1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; 
+}
+
+.columna1,
+.columna2 {
+  max-width: 400px; 
+}
+
+.columna1 .rowc1 img,
+.columna2 .rowc2 img {
+  width: 125px;
+  height: 75px;
+  margin-left: 10px; 
+}
   
-  .productos {
-    display: inline-block;
-    flex-direction: row;
-    justify-content:space-around;
-    text-align: center;
-  }
+/* Página Contacto - Formulario */
+/* Bootstrap */
+/* Cambio de colores a los botones */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #313031;
+  border:rgb(0, 0, 0)
+}
   
-  .productostexto {
-    text-align: center;
-  }
-  
-  .productostexto1 {
-    margin-top: -25px;
-    text-align: center;
-  }
-  
-  /* Página Noticias */
-  /* Bootstrap */
-  /* Contenedor de la Primera Noticia*/
-  /* Fotmato del Título: Tipografia, tamaño, color*/
-  .container-fluid h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
-    color: rgb(21, 138, 21);
-    margin-top: 15px;
-  }
-  
-  .container-fluid h3 {
-    font-family: 'Josefin Slab', serif !important; 
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-  }
-  
-  /* Contenedor de la Segunda Noticia*/
-  /* Fotmato del Título: Tipografia, tamaño, color*/
-  .div-container-fluid h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 30px;
-    color: rgb(21, 138, 21);
-    margin-top: 15px;
-  }
-  
-  /* Página Nosotros - Alineación de texto */
-  .nosotros__titulos {
-    margin-top: 10px;
-    margin-left: 5px;
-  }
-  
-  .nosotros__subtitulos {
-    margin-left: 20px;
-  }
-  
-  .nosotros__texto {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  /* Página Información */
-  /* Bootstrap */
-  .container-fluid1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  .container-fluid2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-  }
-  
-  .columna1,
-  .columna2,
-  .columna3,
-  .columna4 {
-    max-width: 400px;
-  }
-  
-  .columna1 .rowc1 img,
-  .columna2 .rowc2 img,
-  .columna3 .rowc3 img,
-  .columna4 .rowc4 img {
-    width: 125px;
-    height: 75px;
-    margin-left: 10px;
-  }
-  
-  /* Página Contacto - Formulario */
-  /* Bootstrap */
-  /* Cambio de colores a los botones */
-  .btn-primary,
-  .btn-primary:active,
-  .btn-primary:visited,
-  .btn-primary:focus {
-    background-color: #313031;
-    border:rgb(0, 0, 0)
-  }
-  
-  /* Cambio de color de boton y fuente al pasar el mouse */
-  .btn-primary:hover {
-    background-color:rgb(185, 221, 0);
-    font-family: 'Josefin Slab', serif;
-    font-weight: bold;
-    color: black;
-  }  
+/* Cambio de color de boton y fuente al pasar el mouse */
+.btn-primary:hover {
+  background-color:rgb(185, 221, 0);
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  color: black;
+}  

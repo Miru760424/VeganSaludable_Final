@@ -66,73 +66,140 @@
     </main>
     <!-- Contenedor de la información --> 
     <!-- Bootstrap" -->
-    <div class="container-fluid1">
-      <h3>¿Qué formas de pago puedo aprovechar para realizar mi compra?</h3>
-      <p>Disponemos de los siguientes medios de pago:</p>
-        <div class="container-fluid2">     
-          <div class="columna1">
-            <div class="rowc1">
-              <img src="../imagenes/Visa.png">
+    <!-- acordeón simple extendiendo el componente de la tarjeta. -->
+    <div id="accordion" class="container">
+	    <div class="card">
+	      <div class="card-header">
+	        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                ¿Qué formas de pago puedo aprovechar para realizar mi compra?
+            </a>
+	      </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+	        <div class="card-body">
+                <p>Disponemos de los siguientes medios de pago:</p>
+                <div class="container-fluid1">     
+                    <div class="columna1">
+                      <div class="rowc1">
+                        <img src="../imagenes/Visa.png">
+                      </div>
+                      <div class="rowc1">
+                        <img src="../imagenes/MasterCard.jpg">
+                      </div>
+                      <div class="rowc1">
+                        <img src="../Imagenes/AmericanExpress.jpg">
+                      </div>
+                      <div class="rowc1">
+                        <img src="../Imagenes/DinnersClub.jpg">
+                      </div>
+                      <div class="rowc1">
+                        <img src="../Imagenes/Paypal.png">    
+                      </div>     
+                      <div class="rowc1">
+                        <img src="../Imagenes/Cabal.png">
+                      </div>
+                    </div>  
+                    <div class="columna2">
+                      <div class="rowc2">
+                        <img src="../Imagenes/Shopping.png">
+                      </div>
+                      <div class="rowc2">
+                        <img src="../Imagenes/MercadoPago.jfif">
+                      </div>
+                      <div class="rowc2">
+                        <img src="../Imagenes/Nativa.png"> 
+                      </div>
+                      <div class="rowc2">
+                        <img src="../Imagenes/Argencard.png">
+                      </div>
+                      <div class="rowc2">
+                        <img src="../Imagenes/PagoFacil.jfif">
+                      </div>
+                      <div class="rowc2">
+                        <img src="../Imagenes/Rapipago.jfif">
+                      </div>
+                    </div>
+                </div> 
+                <p>También aceptamos, efectivo, transferencia o depósito bancario con un ¡10% de descuento!</p> 
+	        </div>
+	      </div>
+	    </div>
+	    <div class="card">
+	      <div class="card-header">
+	        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                ¿Cuál es el costo de envío?
+	        </a>
+	      </div>
+	      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+	        <div class="card-body">
+                <p >El costo de envío será mostrado en base al total de la compra y ubicación, en el checkout, en el momento previo a la compra.</p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="card">
+	      <div class="card-header">
+	        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                ¿Cómo se realizan los envíos?
+	        </a>
+	      </div>
+	      <div id="collapseThree" class="collapse" data-parent="#accordion">
+	        <div class="card-body">
+                <p>Trabajamos con:</p>
+                <div>
+                    <img src="../Imagenes/MercadoEnvios.png"  width="150" height="100" alt="">
+                </div>
+                <p>Motomensajeria.</p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                ¿Dónde puedo recibir mi pedido?
+              </a>
             </div>
-            <div class="rowc1">
-              <img src="../imagenes/MasterCard.jpg">
-            </div>
-            <div class="rowc1">
-              <img src="../Imagenes/AmericanExpress.jpg">
-            </div>
-            <div class="rowc1">
-              <img src="../Imagenes/DinnersClub.jpg">
-            </div>
-          </div>  
-          <div class="columna2">
-            <div class="rowc2">
-              <img src="../Imagenes/Paypal.png">    
-            </div>     
-            <div class="rowc2">
-              <img src="../Imagenes/Cabal.png">
-            </div>
-            <div class="rowc2">
-              <img src="../Imagenes/Shopping.png">
-            </div>
-            <div class="rowc2">
-              <img src="../Imagenes/MercadoPago.jfif">
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Realizamos envíos a todo el país.</p>
+              </div>
             </div>
           </div>
-          <div class="columna3">
-            <div class="rowc3">
-              <img src="../Imagenes/Nativa.png"> 
+        <div class="card">
+	      <div class="card-header">
+	        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                ¿Cuánto tarda en llegar el pedido?
+	        </a>
+	      </div>
+	      <div id="collapseFive" class="collapse" data-parent="#accordion">
+	        <div class="card-body">
+                <p>El tiempo de entrega dependerá del tipo de envío seleccionado.</p>
+                <p>En general la demora se encuentra entre 3 y 7 días hábiles luego de acreditado el pago.</p> 
+	        </div>
+	      </div>
+	    </div>
+        <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                ¿Cuál es el plazo para realizar un cambio?
+              </a>
             </div>
-            <div class="rowc3">
-              <img src="../Imagenes/Argencard.png">
+            <div id="collapseSix" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Puedes solicitar un cambio hasta 15 días luego de realizada la compra.</p>
+              </div>
             </div>
-            <div class="rowc3">
-              <img src="../Imagenes/PagoFacil.jfif">
+        </div>
+        <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                ¿Qué debo hacer si el producto no llega en buen estado?
+              </a>
             </div>
-            <div class="rowc3">
-              <img src="../Imagenes/Rapipago.jfif">
+            <div id="collapseSeven" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Ponte en contacto con nosotros a <a href="">info@vegansaludable.com.ar</a> y te enviaremos uno nuevo.</p>  
+              </div>
             </div>
-          </div>
-        </div>  
-    </div>
-    <div class="container-fluid1">
-      <p>También aceptamos, efectivo, transferencia o depósito bancario con un ¡10% de descuento!</p>  
-      <h3>¿Cuál es el costo de envío?</h3>
-      <p >El costo de envío será mostrado en base al total de la compra y ubicación, en el checkout, en el momento previo a la compra.</p>
-      <h3>¿Cómo se realizan los envíos?</h3>
-      <p>Trabajamos con:</p>
-      <div>
-        <img src="../Imagenes/MercadoEnvios.png"  width="150" height="100" alt="">
-      </div>
-      <p>Motomensajeria.</p>
-      <h3>¿Dónde puedo recibir mi pedido?</h3>
-      <p>Realizamos envíos a todo el país.</p>
-      <h3>¿Cuánto tarda en llegar el pedido?</h3>
-      <p>El tiempo de entrega dependerá del tipo de envío seleccionado.</p>
-      <p>En general la demora se encuentra entre 3 y 7 días hábiles luego de acreditado el pago.</p>   
-      <h3>¿Cuál es el plazo para realizar un cambio?</h3>
-      <p>Puedes solicitar un cambio hasta 15 días luego de realizada la compra.</p>
-      <h3>¿Qué debo hacer si el producto no llega en buen estado?</h3>
-      <p>Ponte en contacto con nosotros a <a href="">info@vegansaludable.com.ar</a> y te enviaremos uno nuevo.</p>
+        </div>    
     </div>
     <!--Sección información -->
     <section>
