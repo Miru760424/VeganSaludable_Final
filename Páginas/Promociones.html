@@ -67,109 +67,69 @@
         <h1>Promociones</h1>  <!--Sección 2-->
     </main>
     <!-- Contenedor de productos -->
-    <!-- Flexbox -->
-    <section class="producto">
-        <div class="productos"><img src="../Imagenes/combolabialxl.jpg" width="200" height="200">
-            <p class="productostexto">Combo de Bálsamos</p>
-            <p class="productostexto1">Labiales XL</p>
-            <p class="productostexto1">$1.850</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/jabóndetoxpackX3.jpg" width="200" height="200">
-            <p class="productostexto">Jabón Detox</p>
-            <p class="productostexto1">Pack X 3</p>
-            <p class="productostexto1">$600</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/combojabonesfacial.jpg" width="200" height="200">
-            <p class="productostexto">Jabón Facial Piel</p>
-            <p class="productostexto1">Sensible - Pack X 3</p>
-            <p class="productostexto1">$600</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/combojaboncorporal.jpg" width="250" height="200">
-            <p class="productostexto">Combo de Jabones</p>
-            <p class="productostexto1">Naturales Gourmet</p>
-            <p class="productostexto1">$1.440</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/shampoo+acondicionadorsolidos.jpg" width="200" height="200">
-            <p class="productostexto">Combo Shampoo + </p>
-            <p class="productostexto1">Acondicionador Sólidos</p>
-            <p class="productostexto1">$1.199</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/comboExotica.jpg" width="200" height="200">
-            <p class="productostexto">Combo Exótica</p>
-            <p class="productostexto1">Shimmery Body Mist + Jabón </p>
-            <p class="productostexto1">(Coco - Vainilla - Pamelo)</p>
-            <p class="productostexto1">$900</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/combotropical.jpg" width="200" height="200">
-            <p class="productostexto">Combo Tropical</p>
-            <p class="productostexto1">Shimmery Body Mist</p>
-            <p class="productostexto1">+ Jabón (Pitanga)</p>
-            <p class="productostexto1">$240</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/combobodymist.jpg" width="200" height="200">
-            <p class="productostexto">Combo - Shimmery Body Mist</p>
-            <p class="productostexto1">Exótica - Tropical - Suave</p>
-            <p class="productostexto1">$1.360</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/Pastadental.jpg" width="200" height="150">
-            <p class="productostexto">Pasta Dental Sabor Menta</p>
-            <p class="productostexto1">(Con aceite de Coco - Menta -</p>
-            <p class="productostexto1">Salvia - Romero)</p>
-            <p class="productostexto1">$470</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/oleoantiestres.jpg" width="150" height="150">
-            <p class="productostexto">Óleo</p>
-            <p class="productostexto1">Anti Estres</p>
-            <p class="productostexto1">$520</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/combofacial.jpg" width="200" height="150">
-            <p class="productostexto">Combo Cuidado Facial</p>
-            <p class="productostexto1">Jabón Detox - Limpiador facial </p>
-            <p class="productostexto1">$1.100</p>
-        </div>
-        <div class="productos"><img src="../Imagenes/ComboJabonesNaturales.jpg" width="232" height="150">
-            <p class="productostexto">Combo de Jabones</p>
-            <p class="productostexto1">Naturales</p>
-            <p class="productostexto1">$1.700 c/u<p>
-        </div>
-    </section>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">Combo Bálsamo</h5>
+                <img src="../Imagenes/combolabialxl.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description text-center">Labiales XL</p>
+                  <h5 class="text-primary text-center">Precio: <span class="precio">$ 1850.-</span></h5>
+                  <div class="d-grid gap-2 text-center">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                  <h5 class="card-title pt-2 text-center text-primary">Jabon Detox </h5>
+                  <img src="../Imagenes/jabóndetoxpackX3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-white-50 description text-center">Pack x 3</p>
+                    <h5 class="text-primary text-center">Precio: <span class="precio">$ 600.-</span></h5>
+                    <div class="d-grid gap-2 text-center">
+                    <button  class="btn btn-primary button">Añadir a Carrito</button>
+                  </div>
+                  </div>
+                </div>
+            </div>
+   
     </header>
     <!--Sección información -->
     <section>
-    <div class="container-all">
-        <div class="container-body">
-            <div class="colum-1">
-                <div>
-                    <img src="../Imagenes/camion.png">
+        <div class="container-all">
+            <div class="container-body">
+                <div class="colum-1">
+                    <div>
+                        <img src="../Imagenes/camion.png">
+                    </div>
+                    <h1>Enviamos tu compra</h1>
+                    <div class="row1">
+                        <p class="text-md-center">En compras superiores a $ 2.900 para CABA y GBA por MercadoEnvios.</p> 
+                    </div> 
                 </div>
-                <h1>Enviamos tu compra</h1>
-                <div class="row1">
-                    <p>En compras superiores a $ 2.900</p> 
-                    <p style="line-height: 0">para CABA y GBA.</p> 
-                </div> 
+                <div class="colum-2">
+                    <div>
+                        <img src="../Imagenes/tarjeta.png">
+                    </div>
+                    <h1>Todos los medios de pago</h1>
+                    <div class="row1">
+                        <p class="font-weight-normal">Tarjetas de Débito, Crédito, Efectivo y MercadoPago.</p> 
+                    </div> 
+                </div>    
+                <div class="colum-3">
+                    <div>
+                        <img src="../Imagenes/candado.png">
+                    </div>
+                    <h1>Compra con Seguridad</h1>
+                    <div class="row1">
+                        <p class="text-md-center">Tus datos siempre protegidos.</p> 
+                    </div> 
+                </div>    
             </div>
-            <div class="colum-2">
-                <div>
-                    <img src="../Imagenes/tarjeta.png">
-                </div>
-                <h1>Todos los medios de pago</h1>
-                <div class="row1">
-                    <p>Tarjetas de Débito, Crédito, Efectivo</p> 
-                    <p style="line-height: 0">y MercadoPago.</p> 
-                </div> 
-            </div>    
-            <div class="colum-3">
-                <div>
-                    <img src="../Imagenes/candado.png">
-                </div>
-                <h1>Compra con Seguridad</h1>
-                <div class="row1">
-                    <p>Tus datos siempre protegidos.</p> 
-                </div> 
-            </div>    
         </div>
-    </div>
-    </section>
+      </section>
     <!-- Pie de Página -->
     <footer>
     <div class="container-footer-all">
