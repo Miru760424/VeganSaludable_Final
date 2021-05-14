@@ -264,8 +264,10 @@ p{
 /* Card de imagenes */
 /* Bootstrap */
 .card-img-top {
-  width: 318px !important;
+  width: 310px !important;
   height: 200px !important;
+  margin-left: 4.2px;
+  overflow: auto !important;
 }
 
 /* Subpágina Accesorios */ 
