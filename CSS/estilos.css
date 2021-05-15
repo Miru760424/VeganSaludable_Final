@@ -44,11 +44,10 @@ section {
 
 .container-all {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   padding: 20px; }
 
-.container-body {
+.container-body row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -90,7 +89,6 @@ footer {
 
 .container-footer-all {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   padding: 20px; }
 
@@ -125,7 +123,8 @@ footer {
 .colum2 .row2,
 .colum3 .row3 {
   margin-top: -10px;
-  display: flex; }
+  display: block;
+  text-align: center; }
 
 .colum2 .row2 a img,
 .colum3 .row3 a img {
