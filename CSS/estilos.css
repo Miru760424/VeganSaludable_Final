@@ -216,19 +216,17 @@ p {
   margin-top: 2px;
   margin-left: 2px;
   margin-right: 5px;
-  text-align: justify;
   font-family: 'Josefin Slab', serif;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 20px; }
 
 /* Producto - Subpáginas Capilares, Corporales, Faciales y Accesorios */
 /* Card de imagenes */
 /* Bootstrap */
-.card-img-top {
-  width: 310px !important;
+.bd-placeholder-img {
+  width: 300px !important;
   height: 200px !important;
-  margin-left: 4.2px;
-  overflow: auto !important; }
+  margin-left: 4.2px; }
 
 /* Subpágina Accesorios */
 .contenedor {
