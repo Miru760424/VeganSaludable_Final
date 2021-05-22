@@ -348,13 +348,19 @@ ol li{
   color: rgb(21, 138, 21);
   margin-top: 15px;
 }
-  
+
 .container-fluid h3 {
   font-family: 'Josefin Slab', serif !important; 
   font-size: 25px;
   color: rgb(0, 0, 0);
 }
-  
+
+//Tamaño: imagen
+.bd-placeholder-img1 {
+  width: 400px;
+  height: 700px;
+ }
+
 /* Contenedor de la Segunda Noticia*/
 /* Fotmato del Título: Tipografia, tamaño, color*/
 .div-container-fluid h2 {

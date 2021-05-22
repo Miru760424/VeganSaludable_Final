@@ -304,6 +304,10 @@ ol li {
   font-size: 25px;
   color: black; }
 
+.bd-placeholder-img1 {
+  width: 400px;
+  height: 700px; }
+
 /* Contenedor de la Segunda Noticia*/
 /* Fotmato del Título: Tipografia, tamaño, color*/
 .div-container-fluid h2 {
