@@ -42,13 +42,13 @@
 .btn-outline-primary:active,
 .btn-outline-primary:visited,
 .btn-outline-primary:focus {
-  background-color: #313031;
-  border: black;
+  background-color: #070707 !important;
+  border: #070707;
   color: #b9dd00; }
 
 /* Cambio de color de boton y fuente al pasar el mouse del Buscador*/
 .btn-outline-primary:hover {
-  background-color: #b9dd00;
+  background-color: #b9dd00 !important;
   font-family: 'Helvetica', serif;
   font-weight: bold;
   color: black; }
@@ -366,19 +366,20 @@ ol li {
   height: 75px;
   margin-left: 10px; }
 
-/* Página Contacto - Formulario */
+/* Página Contacto */
 /* Bootstrap */
-/* Cambio de colores a los botones */
+/* Cambio de colores a los botones del formulario*/
 .btn-primary,
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background-color: #313031;
-  border: black; }
+  background-color: #070707 !important;
+  border: black;
+  color: #b9dd00; }
 
-/* Cambio de color de boton y fuente al pasar el mouse */
+/* Cambio de color de boton y fuente al pasar el mouse formulario */
 .btn-primary:hover {
-  background-color: #b9dd00;
+  background-color: #b9dd00 !important;
   font-family: 'Helvetica', serif;
   font-weight: bold;
   color: black; }
