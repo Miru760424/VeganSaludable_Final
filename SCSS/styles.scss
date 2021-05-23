@@ -50,7 +50,7 @@
 .btn-outline-primary:visited,
 .btn-outline-primary:focus {
   background-color:rgb(7, 7, 7) !important;
-  border:rgb(7, 7, 7);
+  border:rgb(7, 7, 7) !important;
   color:rgb(185, 221, 0);
 }
   
@@ -291,6 +291,27 @@ p{
   background-image: linear-gradient(to left, #434343, #000000) !important;
 }
 
+// Cambio de color a boton de Añadir al carrito */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color:rgb(7, 7, 7) !important;
+  border:black !important;
+  color: rgb(185, 221, 0);
+}
+  
+/* Cambio de color y fuente al pasar el mouse por boton de Añadir al carrito */
+.btn-primary:hover {
+  background-color:rgb(185, 221, 0) !important;
+  font-family: 'Helvetica', serif;
+  font-weight: bold;
+  color: black;
+}  
+
+
+
+
 /* Subpágina Accesorios */ 
 .contenedor {
 	max-width: 1000px;
@@ -437,7 +458,7 @@ ol li{
 .btn-primary:visited,
 .btn-primary:focus {
   background-color:rgb(7, 7, 7) !important;
-  border:rgb(0, 0, 0);
+  border:black !important;
   color: rgb(185, 221, 0);
 }
   

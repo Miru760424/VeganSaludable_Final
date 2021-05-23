@@ -43,7 +43,7 @@
 .btn-outline-primary:visited,
 .btn-outline-primary:focus {
   background-color: #070707 !important;
-  border: #070707;
+  border: #070707 !important;
   color: #b9dd00; }
 
 /* Cambio de color de boton y fuente al pasar el mouse del Buscador*/
@@ -248,6 +248,21 @@ p {
 .card {
   background-image: linear-gradient(to left, #434343, #000000) !important; }
 
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #070707 !important;
+  border: black !important;
+  color: #b9dd00; }
+
+/* Cambio de color y fuente al pasar el mouse por boton de Añadir al carrito */
+.btn-primary:hover {
+  background-color: #b9dd00 !important;
+  font-family: 'Helvetica', serif;
+  font-weight: bold;
+  color: black; }
+
 /* Subpágina Accesorios */
 .contenedor {
   max-width: 1000px;
@@ -374,7 +389,7 @@ ol li {
 .btn-primary:visited,
 .btn-primary:focus {
   background-color: #070707 !important;
-  border: black;
+  border: black !important;
   color: #b9dd00; }
 
 /* Cambio de color de boton y fuente al pasar el mouse formulario */
