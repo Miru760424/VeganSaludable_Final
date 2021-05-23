@@ -36,6 +36,23 @@
   margin-left: 0 !important;
   margin-right: 0 !important; }
 
+/* Bootstrap */
+/* Cambio de colores a los botones del Buscador */
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:visited,
+.btn-outline-primary:focus {
+  background-color: #313031;
+  border: black;
+  color: #b9dd00; }
+
+/* Cambio de color de boton y fuente al pasar el mouse del Buscador*/
+.btn-outline-primary:hover {
+  background-color: #b9dd00;
+  font-family: 'Helvetica', serif;
+  font-weight: bold;
+  color: black; }
+
 /* Final de Menú navegador */
 /* Sección anterior al footer */
 /* Bootstrap */
