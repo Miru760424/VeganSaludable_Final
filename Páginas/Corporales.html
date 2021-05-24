@@ -29,7 +29,7 @@
             <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Productos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -54,7 +54,93 @@
           <li class="nav-item active">
             <a class="nav-link" href="Contacto.html">Contacto</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" data-toggle="dropdown" href="#"><img src="/Imagenes/user.png" width="25" height="25" alt="Usiario"></a>
+            <div class="dropdown-menu ">
+              <a class="dropdown-item" data-toggle="modal" data-target="#modalForm" href="#">Crear Cuenta</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="#modalForm1" href="#">Iniciar Sesión</a>
+            </div>
+          </li> 
+          <li>
+            <a href="#"><img src="/Imagenes/carrito.png" width="40" height="41" alt="Carrito" style="padding-top: 12px;"></a>
+          </li>    
         </ul>
+        <!-- Modal -->
+        <div class="modal-dialog ">
+          <div class="modal fade"  id="modalForm" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content" style="background-image: linear-gradient(to left, #434343, #000000)">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                      <h4 class="modal-title" style="font-size: 20px; font-family: 'Abril Fatface', cursive; text-transform: none;" id="myModalLabel">Crear Cuenta</h4>
+                  </div>
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                      <p style="font-family: 'Josefin Slab', serif; font-weight: 600; font-size: 18px; color: #c7c7c7; text-transform: none;">Compra más rápido y llevá el control de tus pedidos, ¡en un solo lugar!</p>
+                      <form role="form">
+                          <div class="form-group"> 
+                              <label for="name" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Nombre y Apellido</label>
+                              <input type="text" name="name" id="mame" value class="form-control"  placeholder="Ej: Martín Gonzalez"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="email" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Correo Electrónico</label>
+                              <input autocorrect="off" autocapitalize="off" type="email" name="email" id="email" value class="form-control"  placeholder="Ej: tunombre@email.com"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="phone" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Teléfono (opcional)</label>
+                              <input type="text" name="phone" id="phone" value class="form-control"  placeholder="Ej: 1123445567"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="password" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Contraseña</label>
+                              <input type="password" name="password" id="password" autocomplete="off" class="js-password-input form-control"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="password_confirmation" class="fotm-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Confirmar Contraseña</label>
+                              <input type="password" name="password_confirmation" id="password_confirmation" autocomplete="off" class="js-password-input form-control"/>
+                          </div>
+                      </form>
+                  </div>
+                  <!-- Modal Footer -->
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Crear Cuenta</button>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal-dialog ">
+          <div class="modal fade"  id="modalForm1" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content" style="background-image: linear-gradient(to left, #434343, #000000)">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                      <h4 class="modal-title" style="font-size: 20px; font-family: 'Abril Fatface', cursive; text-transform: none;" id="myModalLabel">Crear Cuenta</h4>
+                  </div>
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                      <form role="form">
+                          <div class="form-group">
+                              <label for="email" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Usuario</label>
+                              <input autocorrect="off" autocapitalize="off" type="email" name="email" id="email" value class="form-control"  placeholder="Ej: tunombre@email.com"/>
+                          </div>
+                          <div class="form-group">
+                              <label for="password" class="form-label" style="font-size: 16px; font-family: 'Abril Fatface', cursive; text-transform: none;">Contraseña</label>
+                              <input type="password" name="password" id="password" autocomplete="off" class="js-password-input form-control"/>
+                              <a href="#" data-toggle="modal" data-target="#modalForm2" style="font-family: 'Josefin Slab', serif; font-weight: 600; font-size: 18px; color: #c7c7c7; text-transform: none;" >¿Olvidaste tu contraseña?</a>
+                          </div>
+                      </form>
+                  </div>
+                  <!-- Modal Footer -->
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Iniciar Sesión</button>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-4" type="search" placeholder="Buscar" aria-label="Buscar">
           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
